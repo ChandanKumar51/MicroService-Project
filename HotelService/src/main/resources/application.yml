@@ -1,0 +1,12 @@
+ server:
+   port: 8082
+
+ spring:
+   datasource:
+     url: jdbc:mysql://localhost:3306/hotelDb
+     username: root
+     password: test
+   jpa:
+     hibernate:
+       ddl-auto: update
+     show-sql: true
